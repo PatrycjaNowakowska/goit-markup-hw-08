@@ -69,6 +69,15 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 /* ===  end head === */
 
@@ -126,44 +135,35 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address-address:focus, .footer-address-address:hover {
-
-}
-
-
+.footer-address-address:focus, .footer-address-address:hover, 
 .footer-address-mail:focus, .footer-address-mail:hover , .footer-address-phone:focus, .footer-address-phone:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-color)
 }
 /* === end footer === */
 
-
-
-
-
-
-
-/* porftolio filtry - przyciski 
-.filter-button {
+/* ==== portfolio ==== */
+/* porftolio filtry - przyciski */
+.filter-btn {
     font-size: 16px;
     line-height: 1.63;
     font-weight: 500;
     text-align: center; 
     width: 115px;
     height: 38px;
-    color: #212121;
+    font-family: 'roboto';
 }
-.filter-button:hover {
+
+.filter-btn:hover {
     color: #fff;
     background-color: #2196F3;
     cursor: pointer;
 }
-/* portfolio projekty 
+/* portfolio projekty */
 .project-title {
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
 }
 
 .project-type {
@@ -173,4 +173,3 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 color: #757575
 } 
-*/
