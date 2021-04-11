@@ -1,7 +1,150 @@
-/* filtry - przyciski */
+/* główne zmienne */
+ :root {
+    --main-color: #2196F3;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+body {
+    font-family: var(--main-font);
+    color: #212121;
+}
+/* === components === */
+.logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3;
+}
+
+.undertitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* === header === */
+.nav-list-link {
+    color: #212121;
+}
+.nav-list-link, .address-mail , .address-phone  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-list-link:hover, .nav-list-link:focus, .address-mail:hover, .address-mail:focus, .address-phone:hover, .address-phone:focus {
+    color: var(--main-color)
+}
+.address-mail , .address-phone {
+    font-style: normal;
+    color: #757575;
+}
+
+/* === end header === */
+
+/* === head === */
+.head {
+    background-color: #2F303A;
+}
+.head-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.order-btn {
+    background: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* ===  end head === */
+
+/* === nasze atuty === */
+.strengths-undertitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.description {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* === end nasze atuty === */
+
+/* === nasz zespół === */
+.team {
+    background: #F5F4FA;
+}
+.team-name, .team-profession {
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name {
+    font-weight: 500;
+}
+
+.team-profession {
+    color: #757575;
+}
+/* === end nasz zespół === */
+
+/* === footer === */
+.footer {
+    background: #2F303A;
+}
+.footer-address-address, .footer-address-mail, .footer-address-phone {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+.footer-address-address {
+    color: #FFFFFF;
+}
+.footer-address-mail, .footer-address-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-address:focus, .footer-address-address:hover {
+
+}
+
+
+.footer-address-mail:focus, .footer-address-mail:hover , .footer-address-phone:focus, .footer-address-phone:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* === end footer === */
+
+
+
+
+
+
+
+/* porftolio filtry - przyciski 
 .filter-button {
     font-size: 16px;
-    font-family: Roboto;
     line-height: 1.63;
     font-weight: 500;
     text-align: center; 
@@ -14,9 +157,8 @@
     background-color: #2196F3;
     cursor: pointer;
 }
-/* projekty */
+/* portfolio projekty 
 .project-title {
-font-family: Roboto;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
@@ -25,10 +167,10 @@ color: #212121;
 }
 
 .project-type {
-font-family: Roboto;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: #757575
-}
+} 
+*/
