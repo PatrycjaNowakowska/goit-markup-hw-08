@@ -141,7 +141,7 @@ body {
 }
 /* === end footer === */
 
-/* ==== portfolio ==== */
+/* ==== portfolio html ==== */
 /* porftolio filtry - przyciski */
 .filter-btn {
     font-size: 16px;
@@ -153,7 +153,7 @@ body {
     font-family: 'roboto';
 }
 
-.filter-btn:hover {
+.filter-btn:hover, .filter-btn:focus {
     color: #fff;
     background-color: #2196F3;
     cursor: pointer;
@@ -167,7 +167,6 @@ letter-spacing: 0.06em;
 }
 
 .project-type {
-font-weight: normal;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
