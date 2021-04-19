@@ -78,7 +78,9 @@ img {
 .header .address a { 
     margin-right: 50px;
 }
-
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 .header .container {
     display: flex;
     padding-top: 24px;
