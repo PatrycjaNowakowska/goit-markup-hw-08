@@ -196,7 +196,7 @@ fill:var(--main-color);
   height: 120px;
   background-color: #F5F4FA;
   border-radius: 4%;
-  
+
   
 }
 .lorem-icon {
@@ -288,6 +288,45 @@ margin-bottom: 30px;
      }
 /* === end nasz zespół === */
 
+/* === nasi klienci === */
+.customers .container {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 94px;
+ }
+ .customers .undertitle {
+     padding-top: 94px;
+     padding-bottom: 50px;
+ }
+.customers-item {
+    width: 170px;
+    height: 92px;
+
+}
+.customers-item-container {
+    align-content: center;
+    justify-content: center;
+}
+.customers-item-logo {
+    width: 170px;
+    height: 92px;
+  fill: #afb1b8;
+  cursor: pointer;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  }
+
+  .customers-item-logo:hover {
+      fill: var(--main-color);
+  }
+ .customers-list {
+       display: flex;
+  align-items: center;
+  justify-content: space-between;
+ } 
+ 
+  /* === end nasi klienci === */
 /* === footer === */
 .footer {
     background: #2F303A;
