@@ -74,9 +74,11 @@ img {
 }
 .header .address {
     margin-left: auto;
+    display: flex;
 }
 .header .address a { 
     margin-right: 50px;
+    padding-left: 10px;
 }
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -105,7 +107,16 @@ img {
     font-style: normal;
     color: #757575;
 }
-
+.address-icons {
+    width: 16px;
+    height: 12px;
+   }
+.icons {
+    fill:#757575;
+}
+.icons:hover {
+fill:var(--main-color);
+}
 /* === end header === */
 
 /* === head === */
@@ -116,6 +127,12 @@ img {
     justify-content: center;
     display: flex;
     width: auto;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 .head-title {
     font-weight: 900;
@@ -159,7 +176,7 @@ img {
     min-height: 101px;
     margin-left: 0;
     margin-right: 0;
-}
+   }
 .strengths-undertitle {
     font-weight: 700;
     font-size: 14px;
@@ -172,6 +189,19 @@ img {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+}
+.strengths-list-icon {
+    box-sizing: border-box;
+    width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4%;
+  
+  
+}
+.lorem-icon {
+width: 70px;
+height: 70px;
 }
 /* === end nasze atuty === */
 
@@ -206,8 +236,9 @@ img {
 
 .team-profession {
     color: #757575;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     padding-top: 10px;
+    margin-bottom: 0;
 }
 .team .undertitle {
     padding-bottom: 50px;
@@ -229,6 +260,32 @@ img {
     width: 270px;
     height: 260px;
 }
+
+.social-lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-lists-link {
+    width: 44px;
+height: 44px;
+background-color #fff;
+display: flex;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+    fill: #AFB1B8;
+
+}
+.social-lists-link:hover, .social-lists-link:focus {
+    background-color: var(--main-color);
+    fill: #fff;
+}
+.social-icon {
+         width: 20px;
+     height: 20px;
+     }
 /* === end nasz zespół === */
 
 /* === footer === */
