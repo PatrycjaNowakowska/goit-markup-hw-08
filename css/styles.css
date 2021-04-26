@@ -196,8 +196,7 @@ fill:var(--main-color);
   height: 120px;
   background-color: #F5F4FA;
   border-radius: 4%;
-
-  
+   padding: 25px 100px;
 }
 .lorem-icon {
 width: 70px;
@@ -315,7 +314,8 @@ margin-bottom: 30px;
   cursor: pointer;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: flex;
+
+  padding: 16px 32px;
   }
 
   .customers-item-logo:hover {
