@@ -356,13 +356,14 @@ margin-bottom: 30px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
-        transition-property: fill;
+        transition-property: fill, border;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
   }
 
   .customers-item-logo:hover {
       fill: var(--main-color);
+        border: 1px solid var(--main-color)
 
   }
  .customers-list {
@@ -428,19 +429,19 @@ margin-bottom: 30px;
     margin-top: 12px;
 }
 .footer-social-lists {
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .footer-social-lists-link {
     width: 44px;
-height: 44px;
-background-color:rgba(0, 0, 0, 0.1);
-display: flex;
-border-radius: 50%;
-align-items: center;
-justify-content: center;
-margin-bottom: 30px;
+    height: 44px;
+    background-color:rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
     fill: #fff;
     transition-property: fill, background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -457,6 +458,56 @@ margin-bottom: 30px;
      height: 20px;
      }
 /* === end footer === */
+
+/* ==== okno modalne ==== */
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    width: 528px;
+    min-height: 581px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.closebtn {
+     width: 18px;
+    height: 18px;
+    
+    
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+/* ==== end okno modalne ==== */
+
+
 
 /* ==== portfolio html ==== */
 /* porftolio filtry - przyciski */
