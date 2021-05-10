@@ -380,7 +380,8 @@ margin-bottom: 30px;
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
-       display: flex; 
+    display: flex; 
+    justify-content: space-around;
     }
    
 .footer-list-item:not(:last-child) {
@@ -421,6 +422,7 @@ margin-bottom: 30px;
     line-height: 1.172;
     letter-spacing: 0.03em;
     font-weight: 700;
+    padding: 12px 0 20px 0;
     }
 .social-side {
     width: 206px;
@@ -451,12 +453,71 @@ margin-bottom: 30px;
 .footer-social-lists-link:hover, .footer-social-lists-link:focus {
     background-color: var(--main-color);
     fill: #fff;
-     
 }
+.address-side>.logo {
+    color: #fff;
+}
+
 .footer-social-icon {
-         width: 20px;
-     height: 20px;
-     }
+    width: 20px;
+    height: 20px;
+ }
+ .newsletter-side {
+     margin-left: 78px;
+    
+ }
+
+.newsletter { 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+height: 50px;
+background-color: transparent;
+padding: 15px 15px;
+}
+
+.newsletter-form::placeholder {
+    font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+font-weight: 400;
+}
+.newsletter-icon {
+       width: 24px;
+    height: 24px;
+    padding-left: 3px;
+}
+.newsletter-list-item>.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+justify-content: space-around;
+align-content: center;
+margin-left: 13px;
+}
+.newsletter-list {
+    display: flex;
+}
 /* === end footer === */
 
 /* ==== okno modalne ==== */
