@@ -1,0 +1,23 @@
+.whatwedo .undertitle {
+    padding-bottom: 50px;
+}
+
+.whatwedo-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+.whatwedo-description {
+    width: 370px;
+    height: 70px;
+    background-color: #2f303a;
+    opacity: 80%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}

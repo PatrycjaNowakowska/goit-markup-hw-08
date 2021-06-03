@@ -1,0 +1,83 @@
+.header .address {
+    margin-left: auto;
+    display: flex;
+}
+
+.header .address a {
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header .container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header .nav {
+    display: flex;
+}
+
+.nav-list-link {
+    color: #212121;
+}
+
+.nav-list-item .active-page::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 55px;
+    border-radius: 2px;
+    background-color: var(--main-color);
+    top: 77px;
+    display: flex;
+}
+
+.nav-list-link,
+.address-mail,
+.address-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone:hover,
+.address-phone:focus {
+    color: var(--main-color);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-mail,
+.address-phone {
+    font-style: normal;
+    color: #757575;
+}
+
+.address-icons {
+    width: 16px;
+    height: 12px;
+}
+
+.icons {
+    fill: #757575;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.icons:hover {
+    fill: var(--main-color);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
