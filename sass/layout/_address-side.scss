@@ -41,6 +41,8 @@
     color: #fff;
 }
 
-.footer-list-item:not(:last-child) {
-    padding-bottom: 9px;
+.footer-list-item {
+    &:not(:last-child) {
+        padding-bottom: 9px;
+    }
 }

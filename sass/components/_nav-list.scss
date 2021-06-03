@@ -3,6 +3,10 @@
     align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
-    margin-right: 46px;
+.nav-list-item {
+
+    &:not(:last-child) {
+        margin-right: 46px;
+    }
+
 }
