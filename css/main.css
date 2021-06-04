@@ -90,6 +90,13 @@ img {
   justify-content: center;
 }
 
+.project .container .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+  justify-content: space-around;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -128,6 +135,33 @@ img {
 
 .nav-list-item:not(:last-child) {
   margin-right: 46px;
+}
+
+.nav-list-item .active-page::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 55px;
+  border-radius: 2px;
+  background-color: var(--main-color);
+  top: 77px;
+  display: flex;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  color: #212121;
+}
+
+.nav-list-link:hover, .nav-list-link:focus {
+  color: var(--main-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-lists {
@@ -377,6 +411,10 @@ img {
   pointer-events: none;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header .address {
   margin-left: auto;
   display: flex;
@@ -387,31 +425,27 @@ img {
   padding-left: 10px;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
 .header .nav {
   display: flex;
 }
 
-.nav-list-link {
-  color: #212121;
+.address-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  font-style: normal;
+  color: #757575;
 }
 
-.nav-list-item .active-page::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 55px;
-  border-radius: 2px;
-  background-color: var(--main-color);
-  top: 77px;
-  display: flex;
+.address-mail:hover, .address-mail:focus {
+  color: var(--main-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link,
-.address-mail,
 .address-phone {
   font-weight: 500;
   font-size: 14px;
@@ -420,22 +454,13 @@ img {
   transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-}
-
-.nav-list-link:hover,
-.nav-list-link:focus,
-.address-mail:hover,
-.address-mail:focus,
-.address-phone:hover,
-.address-phone:focus {
-  color: var(--main-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-mail,
-.address-phone {
   font-style: normal;
   color: #757575;
+}
+
+.address-phone:hover, .address-phone:focus {
+  color: var(--main-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-icons {
@@ -805,13 +830,6 @@ img {
 .project {
   display: flex;
   flex-wrap: wrap;
-}
-
-.project .container .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 94px;
-  justify-content: space-around;
 }
 
 .project-title {
