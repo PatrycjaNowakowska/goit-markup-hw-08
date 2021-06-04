@@ -1,11 +1,11 @@
-.strengths-container .strengths-list {
+.strengths__container .strengths-list {
     display: flex;
     justify-content: space-between;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.strengths-list-item {
+.strengths-list__item {
     display: inline-block;
     width: 268px;
     min-height: 101px;
@@ -13,7 +13,7 @@
     margin-right: 0;
 }
 
-.strengths-undertitle {
+.strengths-list__undertitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -21,9 +21,14 @@
     text-transform: uppercase;
 }
 
+.strengths-list__description {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
-
-.strengths-list-icon {
+.strengths-list__icon {
     box-sizing: border-box;
     width: 270px;
     height: 120px;
@@ -32,7 +37,3 @@
     padding: 25px 100px;
 }
 
-.lorem-icon {
-    width: 70px;
-    height: 70px;
-}

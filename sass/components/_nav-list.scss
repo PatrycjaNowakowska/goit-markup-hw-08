@@ -1,9 +1,9 @@
-.nav-list {
+.nav__list {
     display: flex;
     align-items: center;
 }
 
-.nav-list-item {
+.nav__item {
 
     &:not(:last-child) {
         margin-right: 46px;
@@ -21,7 +21,7 @@
 }
 
 
-.nav-list-link {
+.nav__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;

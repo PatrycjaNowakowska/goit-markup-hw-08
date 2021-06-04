@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 0 15px;
 
-    .footer & {
+    .footer-section & {
         padding-top: 60px;
         padding-bottom: 60px;
         display: flex;
@@ -41,6 +41,12 @@
         flex-wrap: wrap;
         margin-bottom: 94px;
         justify-content: space-around;
+    }
+
+    .customers-section & {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 94px;
     }
 
 }
