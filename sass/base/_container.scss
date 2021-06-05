@@ -14,7 +14,8 @@
          justify-content: center;
          display: flex;
          width: auto;
-}
+    }
+   
 }
 
 @media screen and (min-width: 480px) {
@@ -27,7 +28,7 @@
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header-mobile.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 468px 400px;
+            background-size: 480px 400px;
         }
 }
 }
@@ -71,7 +72,7 @@
     .container {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 215px;
+        padding: 0 15px;
 
         .head & {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header-deskop.jpg);

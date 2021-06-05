@@ -1,16 +1,7 @@
 .strengths__container .strengths-list {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.strengths-list__item {
-    display: inline-block;
-    width: 268px;
-    min-height: 101px;
-    margin-left: 0;
-    margin-right: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
 }
 
 .strengths-list__undertitle {
@@ -30,10 +21,126 @@
 
 .strengths-list__icon {
     box-sizing: border-box;
+    width: 450px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4%;
+    padding: 25px 192px;
+}
+
+.strengths-list__item {
+    display: inline-block;
+    width: 450px;
+    min-height: 101px;
+    margin-left: 0;
+    margin-right: 0;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .strengths-list__icon {
+        width: 354px;
+        padding: 25px 142px;
+    }
+
+    .strengths__container .strengths-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .strengths-list__description {
+        width: 354px;
+    }
+
+    .strengths-list__item {
+        width: 354px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .strengths__container .strengths-list {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+    }
+
+    .strengths-list__item {
+        display: inline-block;
+        width: 268px;
+        min-height: 101px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .strengths-list__undertitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .strengths-list__description {
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    .strengths-list__icon {
+        box-sizing: border-box;
+        width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        border-radius: 4%;
+        padding: 25px 100px;
+    }
+    
+
+}
+
+
+/* .strengths__container .strengths-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.strengths-list__item {
+    display: inline-block;
+    width: 268px;
+    min-height: 101px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ .strengths-list__undertitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+ .strengths-list__description {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+ .strengths-list__icon {
+    box-sizing: border-box;
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     border-radius: 4%;
     padding: 25px 100px;
 }
-
+*/
