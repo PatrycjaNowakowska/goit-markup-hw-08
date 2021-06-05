@@ -1185,6 +1185,68 @@ img {
   background: #2f303a;
 }
 
+.footer-section .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .address-section, .join {
+    text-align: center;
+  }
+  .logo-web {
+    padding-left: 90px;
+  }
+  .social-side {
+    margin-left: 0;
+  }
+  .newsletter-side {
+    margin-left: 0;
+    text-align: center;
+  }
+  .newsletter-list__form {
+    width: 214px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-section .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .address-section {
+    padding-left: 46px;
+  }
+  .address-section,
+  .join {
+    text-align: center;
+  }
+  .logo-web {
+    padding-left: 160px;
+  }
+  .social-side {
+    margin-left: 60px;
+  }
+  .newsletter-side {
+    margin-left: 0;
+    text-align: center;
+  }
+  .newsletter {
+    padding-top: 40px;
+    width: 760px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-section .container {
+    display: flex;
+  }
+}
+
 .portfolio-filters__item {
   display: inline-block;
 }
