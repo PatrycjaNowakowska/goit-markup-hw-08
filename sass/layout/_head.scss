@@ -1,12 +1,39 @@
 .head__title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
+    font-size: 26px;
+    line-height: 1.615;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
-    width: 696px;
-    height: 120px;
-    margin: 0 auto 30px auto;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .head__title {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .head__title {
+        padding-left: 186px;
+        padding-right: 186px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .head__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #ffffff;
+        width: 696px;
+        height: 120px;
+        margin: 0 auto 30px auto;
+    }
 }
