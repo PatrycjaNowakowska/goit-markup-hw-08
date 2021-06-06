@@ -1384,6 +1384,33 @@ img {
   cursor: pointer;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .nav__list {
+    display: none;
+  }
+  .header .address {
+    display: none;
+  }
+  .logo-web {
+    padding-left: 10px;
+  }
+  .mobile-btn {
+    margin-left: 160px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mobile-btn {
+    display: none;
+  }
+}
+
 .portfolio-filters__item {
   display: inline-block;
 }
