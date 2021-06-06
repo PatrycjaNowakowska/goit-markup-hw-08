@@ -1492,6 +1492,7 @@ img {
 
 .portfolio-filters__item {
   display: inline-block;
+  padding-right: 8px;
 }
 
 .portfolio-filters__btn {
