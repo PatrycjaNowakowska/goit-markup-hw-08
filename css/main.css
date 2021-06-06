@@ -1526,6 +1526,12 @@ img {
   justify-content: center;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .portfolio-filters__item {
+    padding-top: 15px;
+  }
+}
+
 .project-section .container .project-list {
   display: flex;
   flex-wrap: wrap;
