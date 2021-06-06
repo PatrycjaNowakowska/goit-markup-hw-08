@@ -1470,6 +1470,12 @@ img {
   .mobile-btn {
     margin-left: 160px;
   }
+  .mobile-menu .close-btn {
+    border: none;
+  }
+  .mobile-menu .close-btn:hover, .mobile-menu .close-btn:focus {
+    fill: #2196f3;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
