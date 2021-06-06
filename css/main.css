@@ -70,6 +70,12 @@ img {
   width: auto;
 }
 
+.header .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
@@ -90,7 +96,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     max-width: 768px;
     margin: 0 auto;
@@ -101,6 +107,21 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 768px 400px;
+  }
+  .header .container .logo-web {
+    padding-left: 15px;
+  }
+  .header .container .logo {
+    margin-right: 40px;
+    font-size: 24px;
+  }
+  .header .container .address {
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-left: 80px;
+  }
+  .nav__list {
+    font-size: 14px;
   }
 }
 

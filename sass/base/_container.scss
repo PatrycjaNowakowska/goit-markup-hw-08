@@ -15,6 +15,11 @@
          display: flex;
          width: auto;
     }
+    .header & {
+        display: flex;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
    
 }
 
@@ -43,7 +48,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .container {
         max-width: 768px;
         margin: 0 auto;
@@ -56,6 +61,22 @@
             background-size: 768px 400px;
             
         }
+        .header & .logo-web {
+            padding-left: 15px;
+        }
+        .header & .logo {
+            margin-right: 40px;
+            font-size: 24px;
+        }
+
+        .header & .address {
+            flex-wrap: wrap;
+            font-size: 12px;
+            padding-left: 80px;
+        }
+    }
+    .nav__list {
+        font-size: 14px;
     }
 }
 
